@@ -1,0 +1,84 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+
+    "profiles":
+    {
+        "defaults":
+        {
+            // Put settings here that you want to apply to all profiles
+            "colorScheme": "sourcerer",
+            "padding": "30, 20, 30, 10",
+            "fontSize": 16,
+            "fontFace": "Fira Code Medium",
+            "useAcrylic": true,
+            "acrylicOpacity": 0.65,
+            "antialiasingMode": "grayscale",
+            "tabTitle": "Dalesnail"
+            
+        },
+        "list":
+        [
+            {
+                // Make changes here to the powershell.exe profile
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+            },
+            {
+                // Make changes here to the cmd.exe profile
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{6e9fa4d2-a4aa-562d-b1fa-0789dc1f83d7}",
+                "hidden": false,
+                "name": "Legacy",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "name": "sourcerer",
+            "black": "#000000",
+            "blue": "#6688AA",
+            "green": "#719611",
+            "cyan": "#528B8B",
+            "red": "#AA4450",
+            "purple": "#8F6F8F",
+            "yellow": "#CC8800",
+            "white": "#D3D3D3",
+            "brightBlack": "#666b66",
+            "brightBlue": "#90B0D1",
+            "brightGreen": "#B1D631",
+            "brightCyan": "#87CEEB",
+            "brightRed": "#FF6A6A",
+            "brightPurple": "#8181A6",
+            "brightYellow": "#FF9800",
+            "brightWhite": "#C1CDC1",
+            "background": "#272822",
+            "foreground": "#e5e5e5"
+        }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
