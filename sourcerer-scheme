@@ -1,0 +1,23 @@
+    "schemes": [
+        {
+            "name": "sourcerer",
+            "black": "#000000",
+            "blue": "#6688AA",
+            "green": "#719611",
+            "cyan": "#528B8B",
+            "red": "#AA4450",
+            "purple": "#8F6F8F",
+            "yellow": "#CC8800",
+            "white": "#D3D3D3",
+            "brightBlack": "#666b66",
+            "brightBlue": "#90B0D1",
+            "brightGreen": "#B1D631",
+            "brightCyan": "#87CEEB",
+            "brightRed": "#FF6A6A",
+            "brightPurple": "#8181A6",
+            "brightYellow": "#FF9800",
+            "brightWhite": "#C1CDC1",
+            "background": "#272822",
+            "foreground": "#e5e5e5"
+        }
+    ],
